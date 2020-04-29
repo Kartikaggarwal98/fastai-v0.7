@@ -170,6 +170,7 @@ def append_stats(ep_vals, epoch, values, decimals=6):
 
 def print_stats(epoch, values, decimals=6):
     layout = "{!s:^10}" + " {!s:10}" * len(values)
+    values = np.array(values, dtype=np.float)
     values = [epoch] + list(np.round(np.array(values).astype(np.double), decimals))
     print(layout.format(*values))
 

@@ -12,7 +12,7 @@ Most of the library is quite well tested since many students have used it to com
 
 
 ## To install
-You can install this library in the local environment using `pip install git+https://github.com/isarth/fastai-v0.7`
+You can install this library in the local environment using `pip install git+https://github.com/kartikaggarwal98/fastai-v0.7`
 
 
 ## To test
